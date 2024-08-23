@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .weather-input {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .city-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .forecast-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .forecast-card {
+    width: 100%;
+  }
+
+  .current-weather,
+  .forecast {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
